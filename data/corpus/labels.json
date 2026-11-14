@@ -1,0 +1,482 @@
+{
+  "INV-1001": {
+    "invoice_id": "INV-1001",
+    "vendor_name": "Beta Tech",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "superseded_rate",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1002": {
+    "invoice_id": "INV-1002",
+    "vendor_name": "CyberDynamics",
+    "total_amount": 25000.0,
+    "has_issue": true,
+    "issue_type": "rate_overbilling",
+    "claims": [
+      {
+        "claim_type": "hourly_rate",
+        "invoice_value": "$250/hr",
+        "expected_value": "$200/hr",
+        "status": "DISCREPANCY",
+        "cited_doc": "contract_cyberdynamics.pdf",
+        "clause_id": "CLAUSE-1.1",
+        "discrepancy_amount": 5000.0
+      }
+    ]
+  },
+  "INV-1003": {
+    "invoice_id": "INV-1003",
+    "vendor_name": "Delta Systems",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "wrong_terms",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1004": {
+    "invoice_id": "INV-1004",
+    "vendor_name": "Epsilon Cloud",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "over_threshold",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1005": {
+    "invoice_id": "INV-1005",
+    "vendor_name": "Acme Corp",
+    "total_amount": 20000.0,
+    "has_issue": false,
+    "issue_type": "clean",
+    "claims": []
+  },
+  "INV-1006": {
+    "invoice_id": "INV-1006",
+    "vendor_name": "Beta Tech",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "superseded_rate",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1007": {
+    "invoice_id": "INV-1007",
+    "vendor_name": "CyberDynamics",
+    "total_amount": 25000.0,
+    "has_issue": true,
+    "issue_type": "rate_overbilling",
+    "claims": [
+      {
+        "claim_type": "hourly_rate",
+        "invoice_value": "$250/hr",
+        "expected_value": "$200/hr",
+        "status": "DISCREPANCY",
+        "cited_doc": "contract_cyberdynamics.pdf",
+        "clause_id": "CLAUSE-1.1",
+        "discrepancy_amount": 5000.0
+      }
+    ]
+  },
+  "INV-1008": {
+    "invoice_id": "INV-1008",
+    "vendor_name": "Delta Systems",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "wrong_terms",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1009": {
+    "invoice_id": "INV-1009",
+    "vendor_name": "Epsilon Cloud",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "over_threshold",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1010": {
+    "invoice_id": "INV-1010",
+    "vendor_name": "Acme Corp",
+    "total_amount": 20000.0,
+    "has_issue": false,
+    "issue_type": "clean",
+    "claims": []
+  },
+  "INV-1011": {
+    "invoice_id": "INV-1011",
+    "vendor_name": "Beta Tech",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "superseded_rate",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1012": {
+    "invoice_id": "INV-1012",
+    "vendor_name": "CyberDynamics",
+    "total_amount": 25000.0,
+    "has_issue": true,
+    "issue_type": "rate_overbilling",
+    "claims": [
+      {
+        "claim_type": "hourly_rate",
+        "invoice_value": "$250/hr",
+        "expected_value": "$200/hr",
+        "status": "DISCREPANCY",
+        "cited_doc": "contract_cyberdynamics.pdf",
+        "clause_id": "CLAUSE-1.1",
+        "discrepancy_amount": 5000.0
+      }
+    ]
+  },
+  "INV-1013": {
+    "invoice_id": "INV-1013",
+    "vendor_name": "Delta Systems",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "wrong_terms",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1014": {
+    "invoice_id": "INV-1014",
+    "vendor_name": "Epsilon Cloud",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "over_threshold",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1015": {
+    "invoice_id": "INV-1015",
+    "vendor_name": "Acme Corp",
+    "total_amount": 20000.0,
+    "has_issue": false,
+    "issue_type": "clean",
+    "claims": []
+  },
+  "INV-1016": {
+    "invoice_id": "INV-1016",
+    "vendor_name": "Beta Tech",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "superseded_rate",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1017": {
+    "invoice_id": "INV-1017",
+    "vendor_name": "CyberDynamics",
+    "total_amount": 25000.0,
+    "has_issue": true,
+    "issue_type": "rate_overbilling",
+    "claims": [
+      {
+        "claim_type": "hourly_rate",
+        "invoice_value": "$250/hr",
+        "expected_value": "$200/hr",
+        "status": "DISCREPANCY",
+        "cited_doc": "contract_cyberdynamics.pdf",
+        "clause_id": "CLAUSE-1.1",
+        "discrepancy_amount": 5000.0
+      }
+    ]
+  },
+  "INV-1018": {
+    "invoice_id": "INV-1018",
+    "vendor_name": "Delta Systems",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "wrong_terms",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1019": {
+    "invoice_id": "INV-1019",
+    "vendor_name": "Epsilon Cloud",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "over_threshold",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1020": {
+    "invoice_id": "INV-1020",
+    "vendor_name": "Acme Corp",
+    "total_amount": 20000.0,
+    "has_issue": false,
+    "issue_type": "clean",
+    "claims": []
+  },
+  "INV-1021": {
+    "invoice_id": "INV-1021",
+    "vendor_name": "Beta Tech",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "superseded_rate",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1022": {
+    "invoice_id": "INV-1022",
+    "vendor_name": "CyberDynamics",
+    "total_amount": 25000.0,
+    "has_issue": true,
+    "issue_type": "rate_overbilling",
+    "claims": [
+      {
+        "claim_type": "hourly_rate",
+        "invoice_value": "$250/hr",
+        "expected_value": "$200/hr",
+        "status": "DISCREPANCY",
+        "cited_doc": "contract_cyberdynamics.pdf",
+        "clause_id": "CLAUSE-1.1",
+        "discrepancy_amount": 5000.0
+      }
+    ]
+  },
+  "INV-1023": {
+    "invoice_id": "INV-1023",
+    "vendor_name": "Delta Systems",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "wrong_terms",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1024": {
+    "invoice_id": "INV-1024",
+    "vendor_name": "Epsilon Cloud",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "over_threshold",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1025": {
+    "invoice_id": "INV-1025",
+    "vendor_name": "Acme Corp",
+    "total_amount": 20000.0,
+    "has_issue": false,
+    "issue_type": "clean",
+    "claims": []
+  },
+  "INV-1026": {
+    "invoice_id": "INV-1026",
+    "vendor_name": "Beta Tech",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "superseded_rate",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1027": {
+    "invoice_id": "INV-1027",
+    "vendor_name": "CyberDynamics",
+    "total_amount": 25000.0,
+    "has_issue": true,
+    "issue_type": "rate_overbilling",
+    "claims": [
+      {
+        "claim_type": "hourly_rate",
+        "invoice_value": "$250/hr",
+        "expected_value": "$200/hr",
+        "status": "DISCREPANCY",
+        "cited_doc": "contract_cyberdynamics.pdf",
+        "clause_id": "CLAUSE-1.1",
+        "discrepancy_amount": 5000.0
+      }
+    ]
+  },
+  "INV-1028": {
+    "invoice_id": "INV-1028",
+    "vendor_name": "Delta Systems",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "wrong_terms",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1029": {
+    "invoice_id": "INV-1029",
+    "vendor_name": "Epsilon Cloud",
+    "total_amount": 20000.0,
+    "has_issue": true,
+    "issue_type": "over_threshold",
+    "claims": [
+      {
+        "claim_type": "terms_or_threshold",
+        "invoice_value": "Flagged check",
+        "expected_value": "Compliant policy",
+        "status": "DISCREPANCY",
+        "cited_doc": "policy_payment.pdf",
+        "clause_id": "POL-APP-02",
+        "discrepancy_amount": 0.0
+      }
+    ]
+  },
+  "INV-1030": {
+    "invoice_id": "INV-1030",
+    "vendor_name": "Acme Corp",
+    "total_amount": 20000.0,
+    "has_issue": false,
+    "issue_type": "clean",
+    "claims": []
+  }
+}
